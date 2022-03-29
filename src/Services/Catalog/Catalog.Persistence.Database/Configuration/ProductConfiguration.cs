@@ -1,4 +1,5 @@
 ﻿using Catalog.Domain;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
 using System.Collections.Generic;
@@ -12,6 +13,7 @@ namespace Catalog.Persistence.Database.Configuration
             entityBuilder.HasIndex(x => x.ProductId);
             entityBuilder.Property(x => x.Name).IsRequired().HasMaxLength(100);
             entityBuilder.Property(x => x.Description).IsRequired().HasMaxLength(500);
+            entityBuilder.Property(x => x.Price).HasColumnType("decimal(5,2)");
 
             // Products by default
             var products = new List<Product>();
