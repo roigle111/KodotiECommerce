@@ -1,4 +1,7 @@
 using Catalog.Persistence.Database;
+using Catalog.Services.Queries;
+using MediatR;
+using Common.Logging;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -10,7 +13,11 @@ using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
+using Microsoft.Extensions.Diagnostics.HealthChecks;
+using Microsoft.AspNetCore.Diagnostics.HealthChecks;
+using HealthChecks.UI.Client;
 
 namespace Catalog.Api
 {
@@ -33,16 +40,36 @@ namespace Catalog.Api
                 )
             );
 
+            services.AddHealthChecks()
+                    .AddCheck("self", () => HealthCheckResult.Healthy())
+                    .AddDbContextCheck<ApplicationDbContext>();
+
+            services.AddHealthChecksUI();
+
+            services.AddMediatR(Assembly.Load("Catalog.Service.EventHandlers"));
+
+            services.AddTransient<IProductQueryService, ProductQueryService>();
+
             services.AddControllers();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(
+                                IApplicationBuilder app,
+                                IWebHostEnvironment env,
+                                ILoggerFactory loggerFactory)
         {
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
             }
+            else
+            {
+                loggerFactory.AddSyslog(
+                Configuration.GetValue<string>("Papertrail:host"),
+                Configuration.GetValue<int>("Papertrail:port"));
+            }
+
 
             app.UseRouting();
 
@@ -50,6 +77,14 @@ namespace Catalog.Api
 
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapHealthChecks("/hc", new HealthCheckOptions()
+                {
+                    Predicate = _ => true,
+                    ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
+                });
+
+                endpoints.MapHealthChecksUI();
+
                 endpoints.MapControllers();
             });
         }
