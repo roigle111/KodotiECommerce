@@ -1,5 +1,6 @@
 using Customer.Persistence.Database;
 using Customer.Services.Queries;
+using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -11,6 +12,7 @@ using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
 
 namespace Customer.Api
@@ -33,6 +35,8 @@ namespace Customer.Api
                     x => x.MigrationsHistoryTable("__EFMigrationsHistory", "Customer")
                 )
             );
+
+            services.AddMediatR(Assembly.Load("Customer.Service.EventHandlers"));
 
             services.AddTransient<IClientQueryService, ClientQueryService>();
             

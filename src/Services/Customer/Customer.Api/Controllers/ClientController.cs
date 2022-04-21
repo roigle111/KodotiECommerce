@@ -1,5 +1,7 @@
-﻿using Customer.Services.Queries;
+﻿using Customer.Service.EventHandlers.Commands;
+using Customer.Services.Queries;
 using Customer.Services.Queries.DTOs;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Service.Common.Collection;
 using Service.Common.Mapping;
@@ -15,9 +17,11 @@ namespace Customer.Api.Controllers
     public class ClientController : ControllerBase
     {
         private readonly IClientQueryService _clientQueryService;
-        public ClientController(IClientQueryService clientQueryService)
+        private readonly IMediator _mediator;
+        public ClientController(IClientQueryService clientQueryService, IMediator mediator)
         {
             _clientQueryService = clientQueryService;
+            _mediator = mediator;
         }
 
         [HttpGet]
@@ -37,6 +41,13 @@ namespace Customer.Api.Controllers
         public async Task<ClientDto> GetAsync(int id)
         {
             return await _clientQueryService.GetAsync(id);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Create(ClientCreateCommand command)
+        {
+            await _mediator.Publish(command);
+            return Ok();
         }
     }
 }
