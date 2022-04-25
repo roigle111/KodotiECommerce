@@ -51,672 +51,672 @@ namespace Catalog.Persistence.Database.Migrations
                             ProductId = 1,
                             Description = "Description for Product 1",
                             Name = "Product 1",
-                            Price = 566m
+                            Price = 366m
                         },
                         new
                         {
                             ProductId = 2,
                             Description = "Description for Product 2",
                             Name = "Product 2",
-                            Price = 360m
+                            Price = 327m
                         },
                         new
                         {
                             ProductId = 3,
                             Description = "Description for Product 3",
                             Name = "Product 3",
-                            Price = 303m
+                            Price = 476m
                         },
                         new
                         {
                             ProductId = 4,
                             Description = "Description for Product 4",
                             Name = "Product 4",
-                            Price = 295m
+                            Price = 398m
                         },
                         new
                         {
                             ProductId = 5,
                             Description = "Description for Product 5",
                             Name = "Product 5",
-                            Price = 775m
+                            Price = 561m
                         },
                         new
                         {
                             ProductId = 6,
                             Description = "Description for Product 6",
                             Name = "Product 6",
-                            Price = 988m
+                            Price = 753m
                         },
                         new
                         {
                             ProductId = 7,
                             Description = "Description for Product 7",
                             Name = "Product 7",
-                            Price = 342m
+                            Price = 105m
                         },
                         new
                         {
                             ProductId = 8,
                             Description = "Description for Product 8",
                             Name = "Product 8",
-                            Price = 732m
+                            Price = 754m
                         },
                         new
                         {
                             ProductId = 9,
                             Description = "Description for Product 9",
                             Name = "Product 9",
-                            Price = 114m
+                            Price = 702m
                         },
                         new
                         {
                             ProductId = 10,
                             Description = "Description for Product 10",
                             Name = "Product 10",
-                            Price = 241m
+                            Price = 811m
                         },
                         new
                         {
                             ProductId = 11,
                             Description = "Description for Product 11",
                             Name = "Product 11",
-                            Price = 164m
+                            Price = 828m
                         },
                         new
                         {
                             ProductId = 12,
                             Description = "Description for Product 12",
                             Name = "Product 12",
-                            Price = 123m
+                            Price = 906m
                         },
                         new
                         {
                             ProductId = 13,
                             Description = "Description for Product 13",
                             Name = "Product 13",
-                            Price = 565m
+                            Price = 205m
                         },
                         new
                         {
                             ProductId = 14,
                             Description = "Description for Product 14",
                             Name = "Product 14",
-                            Price = 628m
+                            Price = 759m
                         },
                         new
                         {
                             ProductId = 15,
                             Description = "Description for Product 15",
                             Name = "Product 15",
-                            Price = 201m
+                            Price = 376m
                         },
                         new
                         {
                             ProductId = 16,
                             Description = "Description for Product 16",
                             Name = "Product 16",
-                            Price = 216m
+                            Price = 454m
                         },
                         new
                         {
                             ProductId = 17,
                             Description = "Description for Product 17",
                             Name = "Product 17",
-                            Price = 315m
+                            Price = 420m
                         },
                         new
                         {
                             ProductId = 18,
                             Description = "Description for Product 18",
                             Name = "Product 18",
-                            Price = 238m
+                            Price = 892m
                         },
                         new
                         {
                             ProductId = 19,
                             Description = "Description for Product 19",
                             Name = "Product 19",
-                            Price = 369m
+                            Price = 849m
                         },
                         new
                         {
                             ProductId = 20,
                             Description = "Description for Product 20",
                             Name = "Product 20",
-                            Price = 511m
+                            Price = 816m
                         },
                         new
                         {
                             ProductId = 21,
                             Description = "Description for Product 21",
                             Name = "Product 21",
-                            Price = 695m
+                            Price = 860m
                         },
                         new
                         {
                             ProductId = 22,
                             Description = "Description for Product 22",
                             Name = "Product 22",
-                            Price = 734m
+                            Price = 397m
                         },
                         new
                         {
                             ProductId = 23,
                             Description = "Description for Product 23",
                             Name = "Product 23",
-                            Price = 451m
+                            Price = 566m
                         },
                         new
                         {
                             ProductId = 24,
                             Description = "Description for Product 24",
                             Name = "Product 24",
-                            Price = 827m
+                            Price = 772m
                         },
                         new
                         {
                             ProductId = 25,
                             Description = "Description for Product 25",
                             Name = "Product 25",
-                            Price = 227m
+                            Price = 517m
                         },
                         new
                         {
                             ProductId = 26,
                             Description = "Description for Product 26",
                             Name = "Product 26",
-                            Price = 897m
+                            Price = 257m
                         },
                         new
                         {
                             ProductId = 27,
                             Description = "Description for Product 27",
                             Name = "Product 27",
-                            Price = 305m
+                            Price = 414m
                         },
                         new
                         {
                             ProductId = 28,
                             Description = "Description for Product 28",
                             Name = "Product 28",
-                            Price = 811m
+                            Price = 267m
                         },
                         new
                         {
                             ProductId = 29,
                             Description = "Description for Product 29",
                             Name = "Product 29",
-                            Price = 867m
+                            Price = 483m
                         },
                         new
                         {
                             ProductId = 30,
                             Description = "Description for Product 30",
                             Name = "Product 30",
-                            Price = 507m
+                            Price = 107m
                         },
                         new
                         {
                             ProductId = 31,
                             Description = "Description for Product 31",
                             Name = "Product 31",
-                            Price = 394m
+                            Price = 285m
                         },
                         new
                         {
                             ProductId = 32,
                             Description = "Description for Product 32",
                             Name = "Product 32",
-                            Price = 849m
+                            Price = 398m
                         },
                         new
                         {
                             ProductId = 33,
                             Description = "Description for Product 33",
                             Name = "Product 33",
-                            Price = 910m
+                            Price = 611m
                         },
                         new
                         {
                             ProductId = 34,
                             Description = "Description for Product 34",
                             Name = "Product 34",
-                            Price = 645m
+                            Price = 466m
                         },
                         new
                         {
                             ProductId = 35,
                             Description = "Description for Product 35",
                             Name = "Product 35",
-                            Price = 592m
+                            Price = 315m
                         },
                         new
                         {
                             ProductId = 36,
                             Description = "Description for Product 36",
                             Name = "Product 36",
-                            Price = 303m
+                            Price = 238m
                         },
                         new
                         {
                             ProductId = 37,
                             Description = "Description for Product 37",
                             Name = "Product 37",
-                            Price = 885m
+                            Price = 507m
                         },
                         new
                         {
                             ProductId = 38,
                             Description = "Description for Product 38",
                             Name = "Product 38",
-                            Price = 580m
+                            Price = 401m
                         },
                         new
                         {
                             ProductId = 39,
                             Description = "Description for Product 39",
                             Name = "Product 39",
-                            Price = 390m
+                            Price = 873m
                         },
                         new
                         {
                             ProductId = 40,
                             Description = "Description for Product 40",
                             Name = "Product 40",
-                            Price = 127m
+                            Price = 953m
                         },
                         new
                         {
                             ProductId = 41,
                             Description = "Description for Product 41",
                             Name = "Product 41",
-                            Price = 405m
+                            Price = 336m
                         },
                         new
                         {
                             ProductId = 42,
                             Description = "Description for Product 42",
                             Name = "Product 42",
-                            Price = 245m
+                            Price = 651m
                         },
                         new
                         {
                             ProductId = 43,
                             Description = "Description for Product 43",
                             Name = "Product 43",
-                            Price = 116m
+                            Price = 811m
                         },
                         new
                         {
                             ProductId = 44,
                             Description = "Description for Product 44",
                             Name = "Product 44",
-                            Price = 527m
+                            Price = 788m
                         },
                         new
                         {
                             ProductId = 45,
                             Description = "Description for Product 45",
                             Name = "Product 45",
-                            Price = 511m
+                            Price = 433m
                         },
                         new
                         {
                             ProductId = 46,
                             Description = "Description for Product 46",
                             Name = "Product 46",
-                            Price = 791m
+                            Price = 871m
                         },
                         new
                         {
                             ProductId = 47,
                             Description = "Description for Product 47",
                             Name = "Product 47",
-                            Price = 267m
+                            Price = 172m
                         },
                         new
                         {
                             ProductId = 48,
                             Description = "Description for Product 48",
                             Name = "Product 48",
-                            Price = 425m
+                            Price = 973m
                         },
                         new
                         {
                             ProductId = 49,
                             Description = "Description for Product 49",
                             Name = "Product 49",
-                            Price = 700m
+                            Price = 113m
                         },
                         new
                         {
                             ProductId = 50,
                             Description = "Description for Product 50",
                             Name = "Product 50",
-                            Price = 740m
+                            Price = 413m
                         },
                         new
                         {
                             ProductId = 51,
                             Description = "Description for Product 51",
                             Name = "Product 51",
-                            Price = 894m
+                            Price = 389m
                         },
                         new
                         {
                             ProductId = 52,
                             Description = "Description for Product 52",
                             Name = "Product 52",
-                            Price = 761m
+                            Price = 193m
                         },
                         new
                         {
                             ProductId = 53,
                             Description = "Description for Product 53",
                             Name = "Product 53",
-                            Price = 403m
+                            Price = 878m
                         },
                         new
                         {
                             ProductId = 54,
                             Description = "Description for Product 54",
                             Name = "Product 54",
-                            Price = 861m
+                            Price = 587m
                         },
                         new
                         {
                             ProductId = 55,
                             Description = "Description for Product 55",
                             Name = "Product 55",
-                            Price = 167m
+                            Price = 780m
                         },
                         new
                         {
                             ProductId = 56,
                             Description = "Description for Product 56",
                             Name = "Product 56",
-                            Price = 832m
+                            Price = 968m
                         },
                         new
                         {
                             ProductId = 57,
                             Description = "Description for Product 57",
                             Name = "Product 57",
-                            Price = 908m
+                            Price = 761m
                         },
                         new
                         {
                             ProductId = 58,
                             Description = "Description for Product 58",
                             Name = "Product 58",
-                            Price = 475m
+                            Price = 703m
                         },
                         new
                         {
                             ProductId = 59,
                             Description = "Description for Product 59",
                             Name = "Product 59",
-                            Price = 168m
+                            Price = 880m
                         },
                         new
                         {
                             ProductId = 60,
                             Description = "Description for Product 60",
                             Name = "Product 60",
-                            Price = 877m
+                            Price = 404m
                         },
                         new
                         {
                             ProductId = 61,
                             Description = "Description for Product 61",
                             Name = "Product 61",
-                            Price = 783m
+                            Price = 439m
                         },
                         new
                         {
                             ProductId = 62,
                             Description = "Description for Product 62",
                             Name = "Product 62",
-                            Price = 531m
+                            Price = 838m
                         },
                         new
                         {
                             ProductId = 63,
                             Description = "Description for Product 63",
                             Name = "Product 63",
-                            Price = 865m
+                            Price = 370m
                         },
                         new
                         {
                             ProductId = 64,
                             Description = "Description for Product 64",
                             Name = "Product 64",
-                            Price = 606m
+                            Price = 694m
                         },
                         new
                         {
                             ProductId = 65,
                             Description = "Description for Product 65",
                             Name = "Product 65",
-                            Price = 847m
+                            Price = 625m
                         },
                         new
                         {
                             ProductId = 66,
                             Description = "Description for Product 66",
                             Name = "Product 66",
-                            Price = 314m
+                            Price = 530m
                         },
                         new
                         {
                             ProductId = 67,
                             Description = "Description for Product 67",
                             Name = "Product 67",
-                            Price = 213m
+                            Price = 394m
                         },
                         new
                         {
                             ProductId = 68,
                             Description = "Description for Product 68",
                             Name = "Product 68",
-                            Price = 919m
+                            Price = 739m
                         },
                         new
                         {
                             ProductId = 69,
                             Description = "Description for Product 69",
                             Name = "Product 69",
-                            Price = 135m
+                            Price = 544m
                         },
                         new
                         {
                             ProductId = 70,
                             Description = "Description for Product 70",
                             Name = "Product 70",
-                            Price = 898m
+                            Price = 237m
                         },
                         new
                         {
                             ProductId = 71,
                             Description = "Description for Product 71",
                             Name = "Product 71",
-                            Price = 331m
+                            Price = 946m
                         },
                         new
                         {
                             ProductId = 72,
                             Description = "Description for Product 72",
                             Name = "Product 72",
-                            Price = 734m
+                            Price = 118m
                         },
                         new
                         {
                             ProductId = 73,
                             Description = "Description for Product 73",
                             Name = "Product 73",
-                            Price = 848m
+                            Price = 118m
                         },
                         new
                         {
                             ProductId = 74,
                             Description = "Description for Product 74",
                             Name = "Product 74",
-                            Price = 342m
+                            Price = 896m
                         },
                         new
                         {
                             ProductId = 75,
                             Description = "Description for Product 75",
                             Name = "Product 75",
-                            Price = 205m
+                            Price = 580m
                         },
                         new
                         {
                             ProductId = 76,
                             Description = "Description for Product 76",
                             Name = "Product 76",
-                            Price = 549m
+                            Price = 309m
                         },
                         new
                         {
                             ProductId = 77,
                             Description = "Description for Product 77",
                             Name = "Product 77",
-                            Price = 717m
+                            Price = 586m
                         },
                         new
                         {
                             ProductId = 78,
                             Description = "Description for Product 78",
                             Name = "Product 78",
-                            Price = 924m
+                            Price = 777m
                         },
                         new
                         {
                             ProductId = 79,
                             Description = "Description for Product 79",
                             Name = "Product 79",
-                            Price = 416m
+                            Price = 439m
                         },
                         new
                         {
                             ProductId = 80,
                             Description = "Description for Product 80",
                             Name = "Product 80",
-                            Price = 435m
+                            Price = 645m
                         },
                         new
                         {
                             ProductId = 81,
                             Description = "Description for Product 81",
                             Name = "Product 81",
-                            Price = 730m
+                            Price = 184m
                         },
                         new
                         {
                             ProductId = 82,
                             Description = "Description for Product 82",
                             Name = "Product 82",
-                            Price = 880m
+                            Price = 440m
                         },
                         new
                         {
                             ProductId = 83,
                             Description = "Description for Product 83",
                             Name = "Product 83",
-                            Price = 210m
+                            Price = 254m
                         },
                         new
                         {
                             ProductId = 84,
                             Description = "Description for Product 84",
                             Name = "Product 84",
-                            Price = 227m
+                            Price = 169m
                         },
                         new
                         {
                             ProductId = 85,
                             Description = "Description for Product 85",
                             Name = "Product 85",
-                            Price = 612m
+                            Price = 718m
                         },
                         new
                         {
                             ProductId = 86,
                             Description = "Description for Product 86",
                             Name = "Product 86",
-                            Price = 633m
+                            Price = 192m
                         },
                         new
                         {
                             ProductId = 87,
                             Description = "Description for Product 87",
                             Name = "Product 87",
-                            Price = 546m
+                            Price = 520m
                         },
                         new
                         {
                             ProductId = 88,
                             Description = "Description for Product 88",
                             Name = "Product 88",
-                            Price = 149m
+                            Price = 123m
                         },
                         new
                         {
                             ProductId = 89,
                             Description = "Description for Product 89",
                             Name = "Product 89",
-                            Price = 578m
+                            Price = 685m
                         },
                         new
                         {
                             ProductId = 90,
                             Description = "Description for Product 90",
                             Name = "Product 90",
-                            Price = 760m
+                            Price = 346m
                         },
                         new
                         {
                             ProductId = 91,
                             Description = "Description for Product 91",
                             Name = "Product 91",
-                            Price = 394m
+                            Price = 477m
                         },
                         new
                         {
                             ProductId = 92,
                             Description = "Description for Product 92",
                             Name = "Product 92",
-                            Price = 510m
+                            Price = 803m
                         },
                         new
                         {
                             ProductId = 93,
                             Description = "Description for Product 93",
                             Name = "Product 93",
-                            Price = 512m
+                            Price = 521m
                         },
                         new
                         {
                             ProductId = 94,
                             Description = "Description for Product 94",
                             Name = "Product 94",
-                            Price = 513m
+                            Price = 569m
                         },
                         new
                         {
                             ProductId = 95,
                             Description = "Description for Product 95",
                             Name = "Product 95",
-                            Price = 344m
+                            Price = 614m
                         },
                         new
                         {
                             ProductId = 96,
                             Description = "Description for Product 96",
                             Name = "Product 96",
-                            Price = 874m
+                            Price = 498m
                         },
                         new
                         {
@@ -730,21 +730,21 @@ namespace Catalog.Persistence.Database.Migrations
                             ProductId = 98,
                             Description = "Description for Product 98",
                             Name = "Product 98",
-                            Price = 510m
+                            Price = 216m
                         },
                         new
                         {
                             ProductId = 99,
                             Description = "Description for Product 99",
                             Name = "Product 99",
-                            Price = 679m
+                            Price = 262m
                         },
                         new
                         {
                             ProductId = 100,
                             Description = "Description for Product 100",
                             Name = "Product 100",
-                            Price = 296m
+                            Price = 903m
                         });
                 });
 
@@ -773,25 +773,25 @@ namespace Catalog.Persistence.Database.Migrations
                         {
                             ProductInStockId = 1,
                             ProductId = 1,
-                            Stock = 5
+                            Stock = 18
                         },
                         new
                         {
                             ProductInStockId = 2,
                             ProductId = 2,
-                            Stock = 14
+                            Stock = 18
                         },
                         new
                         {
                             ProductInStockId = 3,
                             ProductId = 3,
-                            Stock = 6
+                            Stock = 11
                         },
                         new
                         {
                             ProductInStockId = 4,
                             ProductId = 4,
-                            Stock = 9
+                            Stock = 7
                         },
                         new
                         {
@@ -803,223 +803,223 @@ namespace Catalog.Persistence.Database.Migrations
                         {
                             ProductInStockId = 6,
                             ProductId = 6,
-                            Stock = 9
+                            Stock = 16
                         },
                         new
                         {
                             ProductInStockId = 7,
                             ProductId = 7,
-                            Stock = 15
+                            Stock = 3
                         },
                         new
                         {
                             ProductInStockId = 8,
                             ProductId = 8,
-                            Stock = 14
+                            Stock = 2
                         },
                         new
                         {
                             ProductInStockId = 9,
                             ProductId = 9,
-                            Stock = 19
+                            Stock = 16
                         },
                         new
                         {
                             ProductInStockId = 10,
                             ProductId = 10,
-                            Stock = 8
+                            Stock = 18
                         },
                         new
                         {
                             ProductInStockId = 11,
                             ProductId = 11,
-                            Stock = 12
+                            Stock = 10
                         },
                         new
                         {
                             ProductInStockId = 12,
                             ProductId = 12,
-                            Stock = 16
+                            Stock = 10
                         },
                         new
                         {
                             ProductInStockId = 13,
                             ProductId = 13,
-                            Stock = 1
+                            Stock = 15
                         },
                         new
                         {
                             ProductInStockId = 14,
                             ProductId = 14,
-                            Stock = 5
+                            Stock = 12
                         },
                         new
                         {
                             ProductInStockId = 15,
                             ProductId = 15,
-                            Stock = 4
+                            Stock = 19
                         },
                         new
                         {
                             ProductInStockId = 16,
                             ProductId = 16,
-                            Stock = 18
+                            Stock = 6
                         },
                         new
                         {
                             ProductInStockId = 17,
                             ProductId = 17,
-                            Stock = 18
+                            Stock = 1
                         },
                         new
                         {
                             ProductInStockId = 18,
                             ProductId = 18,
-                            Stock = 4
+                            Stock = 13
                         },
                         new
                         {
                             ProductInStockId = 19,
                             ProductId = 19,
-                            Stock = 10
+                            Stock = 6
                         },
                         new
                         {
                             ProductInStockId = 20,
                             ProductId = 20,
-                            Stock = 2
+                            Stock = 16
                         },
                         new
                         {
                             ProductInStockId = 21,
                             ProductId = 21,
-                            Stock = 19
+                            Stock = 8
                         },
                         new
                         {
                             ProductInStockId = 22,
                             ProductId = 22,
-                            Stock = 19
+                            Stock = 13
                         },
                         new
                         {
                             ProductInStockId = 23,
                             ProductId = 23,
-                            Stock = 0
+                            Stock = 4
                         },
                         new
                         {
                             ProductInStockId = 24,
                             ProductId = 24,
-                            Stock = 10
+                            Stock = 15
                         },
                         new
                         {
                             ProductInStockId = 25,
                             ProductId = 25,
-                            Stock = 5
+                            Stock = 19
                         },
                         new
                         {
                             ProductInStockId = 26,
                             ProductId = 26,
-                            Stock = 12
+                            Stock = 5
                         },
                         new
                         {
                             ProductInStockId = 27,
                             ProductId = 27,
-                            Stock = 6
+                            Stock = 4
                         },
                         new
                         {
                             ProductInStockId = 28,
                             ProductId = 28,
-                            Stock = 12
+                            Stock = 15
                         },
                         new
                         {
                             ProductInStockId = 29,
                             ProductId = 29,
-                            Stock = 12
+                            Stock = 1
                         },
                         new
                         {
                             ProductInStockId = 30,
                             ProductId = 30,
-                            Stock = 1
+                            Stock = 0
                         },
                         new
                         {
                             ProductInStockId = 31,
                             ProductId = 31,
-                            Stock = 11
+                            Stock = 7
                         },
                         new
                         {
                             ProductInStockId = 32,
                             ProductId = 32,
-                            Stock = 8
+                            Stock = 19
                         },
                         new
                         {
                             ProductInStockId = 33,
                             ProductId = 33,
-                            Stock = 1
+                            Stock = 3
                         },
                         new
                         {
                             ProductInStockId = 34,
                             ProductId = 34,
-                            Stock = 9
+                            Stock = 3
                         },
                         new
                         {
                             ProductInStockId = 35,
                             ProductId = 35,
-                            Stock = 4
+                            Stock = 6
                         },
                         new
                         {
                             ProductInStockId = 36,
                             ProductId = 36,
-                            Stock = 14
+                            Stock = 1
                         },
                         new
                         {
                             ProductInStockId = 37,
                             ProductId = 37,
-                            Stock = 12
+                            Stock = 19
                         },
                         new
                         {
                             ProductInStockId = 38,
                             ProductId = 38,
-                            Stock = 15
+                            Stock = 16
                         },
                         new
                         {
                             ProductInStockId = 39,
                             ProductId = 39,
-                            Stock = 7
+                            Stock = 12
                         },
                         new
                         {
                             ProductInStockId = 40,
                             ProductId = 40,
-                            Stock = 9
+                            Stock = 16
                         },
                         new
                         {
                             ProductInStockId = 41,
                             ProductId = 41,
-                            Stock = 19
+                            Stock = 3
                         },
                         new
                         {
                             ProductInStockId = 42,
                             ProductId = 42,
-                            Stock = 8
+                            Stock = 17
                         },
                         new
                         {
@@ -1031,13 +1031,13 @@ namespace Catalog.Persistence.Database.Migrations
                         {
                             ProductInStockId = 44,
                             ProductId = 44,
-                            Stock = 12
+                            Stock = 8
                         },
                         new
                         {
                             ProductInStockId = 45,
                             ProductId = 45,
-                            Stock = 2
+                            Stock = 6
                         },
                         new
                         {
@@ -1049,55 +1049,55 @@ namespace Catalog.Persistence.Database.Migrations
                         {
                             ProductInStockId = 47,
                             ProductId = 47,
-                            Stock = 5
+                            Stock = 4
                         },
                         new
                         {
                             ProductInStockId = 48,
                             ProductId = 48,
-                            Stock = 15
+                            Stock = 14
                         },
                         new
                         {
                             ProductInStockId = 49,
                             ProductId = 49,
-                            Stock = 4
+                            Stock = 19
                         },
                         new
                         {
                             ProductInStockId = 50,
                             ProductId = 50,
-                            Stock = 5
+                            Stock = 4
                         },
                         new
                         {
                             ProductInStockId = 51,
                             ProductId = 51,
-                            Stock = 17
+                            Stock = 12
                         },
                         new
                         {
                             ProductInStockId = 52,
                             ProductId = 52,
-                            Stock = 10
+                            Stock = 3
                         },
                         new
                         {
                             ProductInStockId = 53,
                             ProductId = 53,
-                            Stock = 8
+                            Stock = 6
                         },
                         new
                         {
                             ProductInStockId = 54,
                             ProductId = 54,
-                            Stock = 6
+                            Stock = 15
                         },
                         new
                         {
                             ProductInStockId = 55,
                             ProductId = 55,
-                            Stock = 4
+                            Stock = 15
                         },
                         new
                         {
@@ -1121,25 +1121,25 @@ namespace Catalog.Persistence.Database.Migrations
                         {
                             ProductInStockId = 59,
                             ProductId = 59,
-                            Stock = 3
+                            Stock = 8
                         },
                         new
                         {
                             ProductInStockId = 60,
                             ProductId = 60,
-                            Stock = 8
+                            Stock = 14
                         },
                         new
                         {
                             ProductInStockId = 61,
                             ProductId = 61,
-                            Stock = 3
+                            Stock = 11
                         },
                         new
                         {
                             ProductInStockId = 62,
                             ProductId = 62,
-                            Stock = 2
+                            Stock = 8
                         },
                         new
                         {
@@ -1151,109 +1151,109 @@ namespace Catalog.Persistence.Database.Migrations
                         {
                             ProductInStockId = 64,
                             ProductId = 64,
-                            Stock = 18
+                            Stock = 15
                         },
                         new
                         {
                             ProductInStockId = 65,
                             ProductId = 65,
-                            Stock = 16
+                            Stock = 11
                         },
                         new
                         {
                             ProductInStockId = 66,
                             ProductId = 66,
-                            Stock = 3
+                            Stock = 11
                         },
                         new
                         {
                             ProductInStockId = 67,
                             ProductId = 67,
-                            Stock = 15
+                            Stock = 7
                         },
                         new
                         {
                             ProductInStockId = 68,
                             ProductId = 68,
-                            Stock = 11
+                            Stock = 12
                         },
                         new
                         {
                             ProductInStockId = 69,
                             ProductId = 69,
-                            Stock = 0
+                            Stock = 5
                         },
                         new
                         {
                             ProductInStockId = 70,
                             ProductId = 70,
-                            Stock = 10
+                            Stock = 17
                         },
                         new
                         {
                             ProductInStockId = 71,
                             ProductId = 71,
-                            Stock = 5
+                            Stock = 6
                         },
                         new
                         {
                             ProductInStockId = 72,
                             ProductId = 72,
-                            Stock = 2
+                            Stock = 5
                         },
                         new
                         {
                             ProductInStockId = 73,
                             ProductId = 73,
-                            Stock = 16
+                            Stock = 0
                         },
                         new
                         {
                             ProductInStockId = 74,
                             ProductId = 74,
-                            Stock = 1
+                            Stock = 10
                         },
                         new
                         {
                             ProductInStockId = 75,
                             ProductId = 75,
-                            Stock = 3
+                            Stock = 12
                         },
                         new
                         {
                             ProductInStockId = 76,
                             ProductId = 76,
-                            Stock = 10
+                            Stock = 11
                         },
                         new
                         {
                             ProductInStockId = 77,
                             ProductId = 77,
-                            Stock = 15
+                            Stock = 8
                         },
                         new
                         {
                             ProductInStockId = 78,
                             ProductId = 78,
-                            Stock = 8
+                            Stock = 15
                         },
                         new
                         {
                             ProductInStockId = 79,
                             ProductId = 79,
-                            Stock = 7
+                            Stock = 9
                         },
                         new
                         {
                             ProductInStockId = 80,
                             ProductId = 80,
-                            Stock = 16
+                            Stock = 10
                         },
                         new
                         {
                             ProductInStockId = 81,
                             ProductId = 81,
-                            Stock = 6
+                            Stock = 1
                         },
                         new
                         {
@@ -1265,109 +1265,109 @@ namespace Catalog.Persistence.Database.Migrations
                         {
                             ProductInStockId = 83,
                             ProductId = 83,
-                            Stock = 8
+                            Stock = 16
                         },
                         new
                         {
                             ProductInStockId = 84,
                             ProductId = 84,
-                            Stock = 7
+                            Stock = 16
                         },
                         new
                         {
                             ProductInStockId = 85,
                             ProductId = 85,
-                            Stock = 3
+                            Stock = 8
                         },
                         new
                         {
                             ProductInStockId = 86,
                             ProductId = 86,
-                            Stock = 1
+                            Stock = 3
                         },
                         new
                         {
                             ProductInStockId = 87,
                             ProductId = 87,
-                            Stock = 0
+                            Stock = 13
                         },
                         new
                         {
                             ProductInStockId = 88,
                             ProductId = 88,
-                            Stock = 14
+                            Stock = 7
                         },
                         new
                         {
                             ProductInStockId = 89,
                             ProductId = 89,
-                            Stock = 5
+                            Stock = 7
                         },
                         new
                         {
                             ProductInStockId = 90,
                             ProductId = 90,
-                            Stock = 19
+                            Stock = 1
                         },
                         new
                         {
                             ProductInStockId = 91,
                             ProductId = 91,
-                            Stock = 0
+                            Stock = 6
                         },
                         new
                         {
                             ProductInStockId = 92,
                             ProductId = 92,
-                            Stock = 15
+                            Stock = 3
                         },
                         new
                         {
                             ProductInStockId = 93,
                             ProductId = 93,
-                            Stock = 11
+                            Stock = 8
                         },
                         new
                         {
                             ProductInStockId = 94,
                             ProductId = 94,
-                            Stock = 19
+                            Stock = 17
                         },
                         new
                         {
                             ProductInStockId = 95,
                             ProductId = 95,
-                            Stock = 6
+                            Stock = 4
                         },
                         new
                         {
                             ProductInStockId = 96,
                             ProductId = 96,
-                            Stock = 16
+                            Stock = 15
                         },
                         new
                         {
                             ProductInStockId = 97,
                             ProductId = 97,
-                            Stock = 6
+                            Stock = 15
                         },
                         new
                         {
                             ProductInStockId = 98,
                             ProductId = 98,
-                            Stock = 5
+                            Stock = 8
                         },
                         new
                         {
                             ProductInStockId = 99,
                             ProductId = 99,
-                            Stock = 15
+                            Stock = 17
                         },
                         new
                         {
                             ProductInStockId = 100,
                             ProductId = 100,
-                            Stock = 19
+                            Stock = 15
                         });
                 });
 

@@ -27,7 +27,19 @@ namespace Customer.Persistence.Database.Migrations
                 schema: "Customer",
                 table: "Clients",
                 columns: new[] { "ClientId", "Name" },
-                values: new object[] { 1, "Roigle111" });
+                values: new object[,]
+                {
+                    { 1, "Client-1" },
+                    { 2, "Client-2" },
+                    { 3, "Client-3" },
+                    { 4, "Client-4" },
+                    { 5, "Client-5" },
+                    { 6, "Client-6" },
+                    { 7, "Client-7" },
+                    { 8, "Client-8" },
+                    { 9, "Client-9" },
+                    { 10, "Client-10" }
+                });
 
             migrationBuilder.CreateIndex(
                 name: "IX_Clients_ClientId",

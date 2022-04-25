@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Customer.Persistence.Database.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220419142118_initCustomer")]
+    [Migration("20220425165303_initCustomer")]
     partial class initCustomer
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -43,7 +43,52 @@ namespace Customer.Persistence.Database.Migrations
                         new
                         {
                             ClientId = 1,
-                            Name = "Roigle111"
+                            Name = "Client-1"
+                        },
+                        new
+                        {
+                            ClientId = 2,
+                            Name = "Client-2"
+                        },
+                        new
+                        {
+                            ClientId = 3,
+                            Name = "Client-3"
+                        },
+                        new
+                        {
+                            ClientId = 4,
+                            Name = "Client-4"
+                        },
+                        new
+                        {
+                            ClientId = 5,
+                            Name = "Client-5"
+                        },
+                        new
+                        {
+                            ClientId = 6,
+                            Name = "Client-6"
+                        },
+                        new
+                        {
+                            ClientId = 7,
+                            Name = "Client-7"
+                        },
+                        new
+                        {
+                            ClientId = 8,
+                            Name = "Client-8"
+                        },
+                        new
+                        {
+                            ClientId = 9,
+                            Name = "Client-9"
+                        },
+                        new
+                        {
+                            ClientId = 10,
+                            Name = "Client-10"
                         });
                 });
 #pragma warning restore 612, 618
