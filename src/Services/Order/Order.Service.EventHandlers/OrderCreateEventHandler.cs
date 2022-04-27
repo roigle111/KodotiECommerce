@@ -3,6 +3,8 @@ using Microsoft.Extensions.Logging;
 using Order.Domain;
 using Order.Persistence.Database;
 using Order.Service.EventHandlers.Commands;
+using Order.Service.Proxies.Catalog;
+using Order.Service.Proxies.Catalog.Command;
 //using Order.Service.Proxies.Catalog;
 //using Order.Service.Proxies.Catalog.Commands;
 using System;
@@ -18,15 +20,15 @@ namespace Order.Service.EventHandlers
     {
         private readonly ApplicationDbContext _context;
         private readonly ILogger<OrderCreateEventHandler> _logger;
-        //private readonly ICatalogProxy _catalogProxy;
+        private readonly ICatalogProxy _catalogProxy;
 
         public OrderCreateEventHandler(
             ApplicationDbContext context,
-            //ICatalogProxy catalogProxy,
+            ICatalogProxy catalogProxy,
             ILogger<OrderCreateEventHandler> logger)
         {
             _context = context;
-            //_catalogProxy = catalogProxy;
+            _catalogProxy = catalogProxy;
             _logger = logger;
         }
 
@@ -55,23 +57,23 @@ namespace Order.Service.EventHandlers
                 // 04. Update Stocks
                 _logger.LogInformation("--- Updating stock");
 
-                //try
-                //{
-                //    await _catalogProxy.UpdateStockAsync(new ProductInStockUpdateStockCommand
-                //    {
-                //        Items = notification.Items.Select(x => new ProductInStockUpdateItem
-                //        {
-                //            Action = ProductInStockAction.Substract,
-                //            ProductId = x.ProductId,
-                //            Stock = x.Quantity
-                //        })
-                //    });
-                //}
-                //catch
-                //{
-                //    _logger.LogError("Order couldn't be created because some of the products don't have enough stock");
-                //    throw new Exception();
-                //}
+                try
+                {
+                    await _catalogProxy.UpdateStockAsync(new ProductInStockUpdateCommand
+                    {
+                        Items = notification.Items.Select(x => new ProductInStockUpdateItem
+                        {
+                            Action = ProductInStockAction.Substract,
+                            ProductId = x.ProductId,
+                            Stock = x.Quantity
+                        })
+                    });
+                }
+                catch
+                {
+                    _logger.LogError("Order couldn't be created because some of the products don't have enough stock");
+                    throw new Exception();
+                }
 
                 // Lógica para actualizar el Stock
                 await trx.CommitAsync();

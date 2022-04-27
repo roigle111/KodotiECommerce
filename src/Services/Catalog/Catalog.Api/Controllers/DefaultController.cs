@@ -17,7 +17,7 @@ namespace Catalog.Api.Controllers
         [HttpGet]
         public string Get()
         {
-            return "Running...";
+            return "Running at Catalog...";
         }
     }
 }

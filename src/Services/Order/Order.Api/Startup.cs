@@ -14,8 +14,8 @@ using Microsoft.EntityFrameworkCore;
 using Order.Service.Queries;
 using System.Reflection;
 using MediatR;
-
-
+using Order.Service.Proxies;
+using Order.Service.Proxies.Catalog;
 
 namespace Order.Api
 {
@@ -35,6 +35,12 @@ namespace Order.Api
                 opt.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"),
                 x => x.MigrationsHistoryTable("__EFMigrationsHistory", "Order")));
 
+            services.Configure<ApiUrls>(
+                opts => Configuration.GetSection("ApiUrls").Bind(opts));
+
+            //proxi
+            services.AddHttpClient<ICatalogProxy, CatalogProxy>();
+            
             services.AddTransient<IOrderQueryService, OrderQueryService>();
 
             services.AddMediatR(Assembly.Load("Order.Service.EventHandlers"));
